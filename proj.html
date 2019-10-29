@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      .text{
+        height:30px;
+        width:100px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow:1px 1px 1px 1px gray;
+        margin: 300px 5px;
+
+      }
+
+      .box{
+        height:27px;
+        width:40px;
+        border: 1px solid gray;
+        border-radius: 8px;
+        box-shadow:1px 1px 1px 1px gray;
+        margin: 300px 5px;
+
+
+      }
+      .bo{
+        height:27px;
+        width:40px;
+        border: 1px solid gray;
+        border-radius: 6px;
+        margin: 300px 5px;
+
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+
+
+
+    <input type="text" id="one" class="text" name="one" value="">
+    <select id="options" class="bo">
+      <option value="+&nsbp">+ </option>
+      <option value="-">-</option>
+      <option value="/">/</option>
+      <option value="%">%</option>
+      <option value="^">^</option>
+    </select>
+
+    <input type="text" id="two" class="text" name="two" value="">
+    <input type="button" id="button" class="box" name="" value=" = " onclick=  "click_in()" >
+    <input type="text" id="thr" class="text" name="thr" readonly="readonly">
+    <script type="text/javascript" src="proj.js">
+      </script>
+
+  </body>
+</html>
